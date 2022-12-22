@@ -1,0 +1,26 @@
+.element {
+    background-color: rgb(255, 192, 203);
+    font-family: Verdana, 'DejaVu Sans', sans-serif;
+}
+
+.font-size {
+    font-size: 24px;
+}
+
+/*
+    this is the selector of class font-size is used to represent font-size of
+    24px to id and class selectors of second and third to limit the 
+    rule of duplicate code.
+*/
+
+#second {
+    color: #0000ff;
+    /*font-family: Verdana, 'DejaVu Sans', sans-serif;*/
+    font-size: 36px;
+}
+
+#fourth {
+    /*font-family: Verdana, 'DejaVu Sans', sans-serif;*/
+    background-color: #90ee90;
+    font-weight: bold;
+}
