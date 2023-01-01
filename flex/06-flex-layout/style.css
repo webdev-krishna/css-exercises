@@ -5,7 +5,7 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
-}
+} 
 
 img {
   width: 600px;
@@ -24,4 +24,36 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+.header {
+   display: flex;
+   justify-content: space-between;
+}
+
+.left-links, .right-links {
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 10px;
+  /*background-color: whitesmoke;*/
+  /*border:1px solid wheat;*/
+}
+
+a {
+  text-decoration: none;
+  color: rgb(22, 21, 21); 
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+    
 }
